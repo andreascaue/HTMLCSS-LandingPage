@@ -12,3 +12,18 @@ section{ display: flex; }
 .align-center {align-items: center;}
 .center {justify-content: center;}
 .space-between {justify-content: space-between;} 
+.btn {
+    cursor: pointer; 
+    border: none; 
+    padding-left: 12px; padding-right: 12px; padding-top: 6px; padding-bottom: 6px;
+    border-radius: 3px;
+    line-height: 1.4; 
+}
+.btn-default{
+    background-color: #faa541;
+    color: white;
+}
+.btn-pirmary{
+    background-color: #364147;
+    color: white;
+}
